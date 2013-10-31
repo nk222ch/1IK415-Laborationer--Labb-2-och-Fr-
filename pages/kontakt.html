@@ -1,0 +1,63 @@
+<!DOCTYPE html>  
+<html lang="sv">  
+  <head>  
+    <meta charset="iso-8859-1">  
+    <title>Presentation</title>   
+  </head>  
+  <body>
+      
+      <h1>Kontakt</h1>
+
+        <h2>Formulär att fylla i och skicka</h2>
+
+            <p>
+                Sajtkarta:<br>
+            </p>
+
+                <ul>
+                    <li><a href="../index.html">Start</a></li>
+                    <li><a href="laborationer.html">Laborationer</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+      
+        <h3>Formulär</h3> 
+
+              <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                 <fieldset>
+                    <legend>Fråga</legend>
+                            
+                     Ärendetyp: <select name="subject_matter">
+                                            <option value="question_page">Fråga om sidan
+                                            <option value="tech_support">Teknisk support
+                                            <option value="improvement_tip">Förslag på förbättring
+                                            <option value="other_reason">Övriga synpunkter
+                                        </select>
+
+                    <p>
+                                <textarea rows="5" cols="38" name="textbox"></textarea>
+                    </p>
+
+                  </fieldset>
+                  <fieldset>
+                     <legend>Information om dig</legend>
+
+                         <!--Här har jag gjort lite research, och fått veta att en PHP-server helst ska tolka "name"-värden som i en array för att formuläret ska fungera korrekt-->
+                             <input type="checkbox" name="contact_method[]" value="contact_mail"> Kontakta mig via mail
+                             <input type="checkbox" name="contact_method[]" value="contact_phone"> Kontakta mig via telefon
+
+                    <p>
+                         <!--Fick för mig att lägga till en funktion som återställer fälten-->
+                                 <input type="reset" value="Återställ alla fält">
+                        </p>
+                    <p>
+                                 <input type="submit" value="Skicka">
+                        </p>
+                   </fieldset>
+
+                </form>
+
+        
+  </body>
+      
+</html>
