@@ -1,0 +1,38 @@
+/******** Gemensamma stilar ********/
+
+/******** Container ****************/
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/******** Header *******************/
+
+#header {
+    background: #FFB740;
+}
+/******** Navbar *******************/
+
+#navbar {
+    background: #E768AD;
+    float: left;
+    width: 12em;
+    height: 25em;
+}
+
+/******** Content ******************/
+
+#content {
+    background: #7B72D8;
+    float: right;
+    width: 62em;
+}
+
+/******** Footer *******************/
+
+#footer {
+    background: #95EE6B;
+    height: 5em;
+    clear: both;
+}
