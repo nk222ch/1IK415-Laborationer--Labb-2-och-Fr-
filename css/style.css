@@ -40,6 +40,13 @@ a:link {
     background: #FFAA00;
 }
 
+#bigheadline {
+    position: relative;
+    left: 12em;
+    top: 7em;
+    font-size: 250%;
+}
+
 /******** Navbar *******************/
 
 #navbar {
@@ -76,10 +83,38 @@ a:link {
     padding-left: 0.3em;
 }
 
+.marginleft {
+    padding-left: 3em;
+}
+
+#content h2, h3 {
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    border-color: #005E5E;
+}
+
+#content p {
+    text-align: justify;
+}
+
+.signature {
+    font-size: 75%;
+    float: right;
+}
+
 /******** Footer *******************/
 
 #footer {
     background: #FFAA00;
     height: 5em;
     clear: both;
+}
+
+#footer p {
+    text-align: center;
+    margin: 0;
+    padding-top: 1.5em; 
+    padding-bottom: 3em;
 }
