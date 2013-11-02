@@ -1,38 +1,68 @@
+
+/*
+Sidans färger:
+
+    #FFAA00 = Orange (header och footer)
+    #006363 = Mörkt grönblå (navbar)
+    #E5FFFF = Ljusblå (bakgrund)
+
+*/
+
+
 /******** Gemensamma stilar ********/
+
+*, html {
+    margin: 0;
+    padding: 0.3em;
+    /*Här tvingar jag browsern att visa sidan med noll marginal*/
+}
+body {
+    background-color: #E4E4E4;
+    font-family: Verdana, Times, sans-serif;
+    color: #000000;
+}
 
 /******** Container ****************/
 
 #container {
     width: 1200px;
     margin: 0 auto;
+    background-color: #D2FFFF;
 }
 
 /******** Header *******************/
 
 #header {
-    background: #FFB740;
+    background: #FFAA00;
 }
+
 /******** Navbar *******************/
 
 #navbar {
-    background: #E768AD;
+    background: #009999;
     float: left;
     width: 12em;
-    height: 25em;
+    height: 80em;
+}
+
+#navbar li {
+    list-style: none;
 }
 
 /******** Content ******************/
 
 #content {
-    background: #7B72D8;
+    background: #E5FFFF;
     float: right;
     width: 62em;
+    margin: 0;
+    padding-left: 0.3em;
 }
 
 /******** Footer *******************/
 
 #footer {
-    background: #95EE6B;
+    background: #FFAA00;
     height: 5em;
     clear: both;
 }
