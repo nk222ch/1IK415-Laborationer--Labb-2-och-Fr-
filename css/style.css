@@ -3,7 +3,7 @@
 Sidans färger:
 
     #FFAA00 = Orange (header och footer)
-    #006363 = Mörkt grönblå (navbar)
+    #009999 = Grönblå (navbar)
     #E5FFFF = Ljusblå (bakgrund)
 
 */
@@ -22,12 +22,16 @@ body {
     color: #000000;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 /******** Container ****************/
 
 #container {
     width: 1200px;
     margin: 0 auto;
-    background-color: #D2FFFF;
+    background-color: #E5FFFF;
 }
 
 /******** Header *******************/
@@ -47,6 +51,19 @@ body {
 
 #navbar li {
     list-style: none;
+}
+
+#navbar a {
+    display: block;
+}
+
+#startlink:hover, #lablink:hover, #preslink:hover, #conlink:hover {
+    color: black;
+    background-color: #E5FFFF;
+}
+
+.active {
+    background-color: #007979;
 }
 
 /******** Content ******************/
