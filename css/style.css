@@ -131,6 +131,9 @@ a:link {
     margin: 1em 1em 1em 0em;
 }
 
+table {
+    margin-top: 2em;
+}
 /******** Footer *******************/
 
 #footer {
