@@ -95,6 +95,13 @@ a:link {
     padding-left: 3em;
 }
 
+#content h3 {
+    background-image: url('pics/notepad1.png');
+    background-repeat: no-repeat;
+    float: left top;
+    background-position: 20% 20%;
+}
+
 #content h2, h3 {
     padding-bottom: 0.75em;
     padding-top: 1em;
